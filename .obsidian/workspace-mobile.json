@@ -1,0 +1,87 @@
+{
+  "main": {
+    "id": "3d6b008543010428",
+    "type": "split",
+    "children": [
+      {
+        "id": "73585e65dab2dab2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c6ed4c2c5ec870d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "单片机架构.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "38c79975ca787093",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "e2358e10f25b22e6",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "305f163fad96d1c8",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "f2a8129df8a1ec3b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0d88ad5ad3d9712a",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "单片机架构.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {}
+  },
+  "active": "3c6ed4c2c5ec870d",
+  "lastOpenFiles": [
+    "SDIO 协议驱动学习笔记.md",
+    "单片机架构.md",
+    "宠物自动.md",
+    "安卓样式开发.md"
+  ]
+}
