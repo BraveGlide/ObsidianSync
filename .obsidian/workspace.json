@@ -1,0 +1,129 @@
+{
+  "main": {
+    "id": "f8868f5b5f384f48",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8b82f863b56a7cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "86b3e9830803f202",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "单片机架构.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5fcf6fe15252239e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SDIO 协议驱动学习笔记.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "60dc4f9d85ae2e5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b7e96b7aae57828f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5d32284567e625e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "061e45ab9657d43a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 213.5
+  },
+  "right": {
+    "id": "51eba666f0d6ad40",
+    "type": "split",
+    "children": [
+      {
+        "id": "c78779913d7fb821",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "34d2709747776445",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SDIO 协议驱动学习笔记.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {}
+  },
+  "active": "5fcf6fe15252239e",
+  "lastOpenFiles": [
+    "SDIO 协议驱动学习笔记.md",
+    "单片机架构.md",
+    "宠物自动.md",
+    "FreeRTOS学习笔记.md",
+    "STM32F103C8T6标准库项目搭建.md",
+    "STM32F103C8T6标准库移植FreeRTOS教程.md",
+    "未命名",
+    "安卓样式开发.md",
+    "未命名 1.md",
+    "未命名.canvas",
+    "Excalidraw/Drawing 2024-09-25 16.53.12.excalidraw.md",
+    "Excalidraw",
+    "2024-09-20.md",
+    "Pasted Image 20240920154212_914.jpg",
+    "Excalidraw/Drawing 2024-09-20 15.40.18.excalidraw.md",
+    "测试.md"
+  ]
+}

@@ -1,0 +1,2 @@
+> 任务优先级：每个任务均被分配了从 0 到 ( configMAX_PRIORITIES - 1 ) 的优先级，其中 configMAX_PRIORITIES 定义为 FreeRTOSCo nfig.h。
+> 优先级数字小表示任务优先级低。[空闲任务](https://www.freertos.org/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and-co-routines/15-Idle-task)的优先级为零 (tskIDLE_PRIORITY)。
