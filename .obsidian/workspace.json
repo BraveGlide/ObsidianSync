@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "354f126609383c3a",
+        "id": "e8fb2984292d28d6",
         "type": "tabs",
         "children": [
           {
-            "id": "01fa5150713e7e2a",
+            "id": "076718ba166230a9",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-10-14 18.55.52.excalidraw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -75,38 +73,48 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-10-14 18.55.52.excalidraw.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "0fc0441134e6c9fe",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 348.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "01fa5150713e7e2a",
+  "active": "076718ba166230a9",
   "lastOpenFiles": [
-    "SDIO 协议驱动学习笔记.md",
-    "STM32F103C8T6标准库移植FreeRTOS教程.md",
+    "单片机架构.md",
+    "未命名.md",
+    "安卓样式开发.md",
+    "日程计划/2024-10-16.md",
     "STM32F103VET6标准库项目搭建.md",
+    "STM32F103C8T6标准库移植FreeRTOS教程.md",
+    "SDIO 协议驱动学习笔记.md",
+    "FreeRTOS学习笔记.md",
+    "2024-10-15.md",
+    "日程计划",
+    "未命名 1.md",
     "Excalidraw/Drawing 2024-10-14 18.55.52.excalidraw.md",
     "Excalidraw",
-    "未命名.md",
-    "单片机架构.md",
-    "FreeRTOS学习笔记.md",
     "宠物自动.md",
-    "安卓样式开发.md",
     "W24Q64学习笔记.md",
-    "未命名",
-    "未命名 1.md",
     "未命名.canvas",
     "Excalidraw/Drawing 2024-09-25 16.53.12.excalidraw.md",
     "2024-09-20.md",
