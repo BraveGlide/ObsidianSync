@@ -4,15 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "e8fb2984292d28d6",
+        "id": "f2c7ec902840da83",
         "type": "tabs",
         "children": [
           {
-            "id": "076718ba166230a9",
+            "id": "80ae939ee7818c8e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "圈圈教你玩USB.pdf",
+                "page": 26,
+                "left": -19,
+                "top": 590,
+                "zoom": 0.7945066124109869
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "7a2085a48eaa4b72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "478d1d93f937d4e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "USB 协议驱动学习笔记.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -58,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 213.5,
+    "collapsed": true
   },
   "right": {
     "id": "51eba666f0d6ad40",
@@ -73,7 +99,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "圈圈教你玩USB.pdf"
+              }
             }
           },
           {
@@ -95,19 +123,32 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-day-planner:Timeline": false
+      "obsidian-day-planner:Timeline": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "076718ba166230a9",
+  "active": "80ae939ee7818c8e",
   "lastOpenFiles": [
-    "单片机架构.md",
+    "USB 协议驱动学习笔记.md",
+    "圈圈教你玩USB.pdf",
+    "Pasted image 20241016170007.png",
     "未命名.md",
-    "安卓样式开发.md",
-    "日程计划/2024-10-16.md",
+    "未命名未命名.md",
     "STM32F103VET6标准库项目搭建.md",
     "STM32F103C8T6标准库移植FreeRTOS教程.md",
-    "SDIO 协议驱动学习笔记.md",
     "FreeRTOS学习笔记.md",
+    "日程计划/2024-10-16.md",
+    "日程计划/2024-10-17.md",
+    "pic/2024-10-16.md",
+    "pic/2024-10-16 090020笔记.png",
+    "栈.md",
+    "pic/屏幕截图 2024-10-16 090020.png",
+    "pic",
+    "新建文件夹",
+    "单片机架构.md",
+    "安卓样式开发.md",
     "2024-10-15.md",
     "日程计划",
     "未命名 1.md",
