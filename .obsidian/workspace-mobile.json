@@ -4,6 +4,51 @@
     "type": "split",
     "children": [
       {
+        "id": "4367950559f0e915",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d3e354fdae70e0c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "圈圈教你玩USB.pdf",
+                "page": 1,
+                "zoom": 1
+              }
+            }
+          },
+          {
+            "id": "4db6e852d4aa7a51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "发言稿子.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2f8569cc11a6bd9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STM32F407ZGT6与ST7789屏幕接线图.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
         "id": "73585e65dab2dab2",
         "type": "tabs",
         "children": [
@@ -13,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "单片机架构.md",
+                "file": "USB 协议驱动学习笔记.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -67,20 +112,39 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "单片机架构.md"
+            "file": "STM32F407ZGT6与ST7789屏幕接线图.md"
           }
+        }
+      },
+      {
+        "id": "9782e97286ac0632",
+        "type": "leaf",
+        "state": {
+          "type": "timeline",
+          "state": {}
         }
       }
     ],
     "currentTab": 0
   },
   "left-ribbon": {
-    "hiddenItems": {}
+    "hiddenItems": {
+      "obsidian-day-planner:Timeline": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
+    }
   },
-  "active": "3c6ed4c2c5ec870d",
+  "active": "2f8569cc11a6bd9b",
   "lastOpenFiles": [
-    "SDIO 协议驱动学习笔记.md",
+    "发言稿子.md",
+    "STM32F407ZGT6与ST7789屏幕接线图.md",
+    "圈圈教你玩USB.pdf",
+    "USB 协议驱动学习笔记.md",
+    "FreeRTOS学习笔记.md",
     "单片机架构.md",
+    "SDIO 协议驱动学习笔记.md",
     "宠物自动.md",
     "安卓样式开发.md"
   ]
