@@ -4,40 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f2c7ec902840da83",
+        "id": "ec3500c947d6e8b6",
         "type": "tabs",
         "children": [
           {
-            "id": "80ae939ee7818c8e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "圈圈教你玩USB.pdf",
-                "page": 26,
-                "left": -19,
-                "top": 590,
-                "zoom": 0.7945066124109869
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "7a2085a48eaa4b72",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "478d1d93f937d4e4",
+            "id": "f347a332312c6f8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "USB 协议驱动学习笔记.md",
+                "file": "栈.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "栈"
             }
           }
         ]
@@ -65,7 +47,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -75,7 +59,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
         ],
@@ -83,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5,
-    "collapsed": true
+    "width": 213.5
   },
   "right": {
     "id": "51eba666f0d6ad40",
@@ -100,8 +85,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "圈圈教你玩USB.pdf"
-              }
+                "file": "FreeRTOS学习笔记.md"
+              },
+              "icon": "lucide-list",
+              "title": "FreeRTOS学习笔记 的大纲"
             }
           },
           {
@@ -109,7 +96,9 @@
             "type": "leaf",
             "state": {
               "type": "timeline",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
             }
           }
         ],
@@ -117,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5,
-    "collapsed": true
+    "width": 348.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -129,26 +117,27 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "80ae939ee7818c8e",
+  "active": "f347a332312c6f8d",
   "lastOpenFiles": [
-    "USB 协议驱动学习笔记.md",
-    "圈圈教你玩USB.pdf",
-    "Pasted image 20241016170007.png",
-    "未命名.md",
-    "未命名未命名.md",
-    "STM32F103VET6标准库项目搭建.md",
-    "STM32F103C8T6标准库移植FreeRTOS教程.md",
     "FreeRTOS学习笔记.md",
-    "日程计划/2024-10-16.md",
+    "STM32F103VET6 标准库项目搭建.md",
+    "STM32F103C8T6标准库移植FreeRTOS教程.md",
+    "CasaOS 应用商店 Docker 无法安装应用.md",
+    "发言稿子.md",
+    "圈圈教你玩USB.pdf",
+    "栈.md",
+    "Pasted image 20241016170007.png",
+    "USB 协议驱动学习笔记.md",
+    "安卓样式开发.md",
+    "单片机架构.md",
     "日程计划/2024-10-17.md",
+    "未命名未命名.md",
+    "日程计划/2024-10-16.md",
     "pic/2024-10-16.md",
     "pic/2024-10-16 090020笔记.png",
-    "栈.md",
     "pic/屏幕截图 2024-10-16 090020.png",
     "pic",
     "新建文件夹",
-    "单片机架构.md",
-    "安卓样式开发.md",
     "2024-10-15.md",
     "日程计划",
     "未命名 1.md",
