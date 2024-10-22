@@ -3,9 +3,9 @@
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "Letter",
-    "landscape": false,
+    "landscape": true,
     "margin": "0",
-    "downscalePercent": 100
+    "downscalePercent": 90
   },
   "strictLineBreaks": true,
   "showLineNumber": false

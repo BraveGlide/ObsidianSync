@@ -4,10 +4,13 @@
 
 > 注意：空闲任务负责释放由 RTOS 内核分配给已删除任务的 内存。因此，如果应用程序调用了 **vTaskDelete**()，请务必确保空闲任务获得足够的微控制器处理时间。任务代码分配的内存不会自动释放， 应在任务删除之前手动释放。
 
-STM32CubeMX 生成的 FreeRTOS 的模板竟然没有 xTaskDelayUnitl 这个函数，即使我添加了它响应的宏定义，这让我感到不可思议。
+STM32 的系统时钟频率修改
+**STM32F407ZGT6**：在`system_stm32f4xx.c`里面修改，这个文件里定义了`PLL_M`、`PLL_N`、`PLL_P`
+`SYSCLK`的频率等于$SYSCLK=(f_{PLL}*PLL_N)/(PLL_M*PLL_P)$
 
-我尝试移植的 FreeRTOS 任务成功了。
-
-**任务的实现过程：** 
-定义任务[[栈]] ：需要动态或者静态分配一段内存空间
-![[2024-10-16 090020笔记.png]]
+# 查看系统时钟主频
+```c
+RCC_ClocksTypeDef RCC_Info;
+RCC_GetClocksFreq(&RCC_Info);
+freq=RCC_Info.SYSCLK_Frequency;
+```
