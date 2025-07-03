@@ -92,6 +92,57 @@
         <mxCell id="9Wp7DCiXrSTZsT9I5IMm-23" value="&lt;div&gt;创建音频采集任务&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FQfiUk59fLdF9HCK3g-U-2" target="FQfiUk59fLdF9HCK3g-U-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-2" value="&lt;div&gt;音频采集任务&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FQfiUk59fLdF9HCK3g-U-3" target="FQfiUk59fLdF9HCK3g-U-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-3" value="&lt;div&gt;等待按键按下&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FQfiUk59fLdF9HCK3g-U-5" target="FQfiUk59fLdF9HCK3g-U-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FQfiUk59fLdF9HCK3g-U-5" target="FQfiUk59fLdF9HCK3g-U-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-5" value="&lt;div&gt;开始录音&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FQfiUk59fLdF9HCK3g-U-6" target="FQfiUk59fLdF9HCK3g-U-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-6" value="发送ASR初始化请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FQfiUk59fLdF9HCK3g-U-10" target="FQfiUk59fLdF9HCK3g-U-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FQfiUk59fLdF9HCK3g-U-10" target="FQfiUk59fLdF9HCK3g-U-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-10" value="记录录音数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FQfiUk59fLdF9HCK3g-U-12" target="FQfiUk59fLdF9HCK3g-U-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-12" value="分段发送录音数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FQfiUk59fLdF9HCK3g-U-15" target="FQfiUk59fLdF9HCK3g-U-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-15" value="等待按键松开" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-17" value="发送ASR识别结束请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
