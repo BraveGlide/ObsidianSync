@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0" version="27.2.0">
+  <diagram name="第 1 页" id="R3yfPH0M-6cDf_54tVBJ">
+    <mxGraphModel dx="2498" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-1" value="&lt;div&gt;函数入口&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-2" value="&lt;div&gt;NVS&lt;/div&gt;&lt;div&gt;初始化&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-3" value="&lt;div&gt;网络接口初始化&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-4" value="&lt;div&gt;创建事件循环&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-5" value="I2S发送接收环形缓冲区初始化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Wp7DCiXrSTZsT9I5IMm-6" target="9Wp7DCiXrSTZsT9I5IMm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-6" value="&lt;div&gt;初始化函数&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Wp7DCiXrSTZsT9I5IMm-5" target="9Wp7DCiXrSTZsT9I5IMm-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="780" as="sourcePoint" />
+            <mxPoint x="370" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="930" />
+              <mxPoint x="300" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Wp7DCiXrSTZsT9I5IMm-1" target="9Wp7DCiXrSTZsT9I5IMm-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="610" as="sourcePoint" />
+            <mxPoint x="310" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="179.6" y="600" as="sourcePoint" />
+            <mxPoint x="179.6" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="179.6" y="720" as="sourcePoint" />
+            <mxPoint x="179.6" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="179.81" y="840" as="sourcePoint" />
+            <mxPoint x="179.81" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Wp7DCiXrSTZsT9I5IMm-13" target="9Wp7DCiXrSTZsT9I5IMm-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-13" value="&lt;div&gt;读取NVS存放的WIFI信息&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Wp7DCiXrSTZsT9I5IMm-14" target="9Wp7DCiXrSTZsT9I5IMm-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-14" value="按键初始化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Wp7DCiXrSTZsT9I5IMm-15" target="9Wp7DCiXrSTZsT9I5IMm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-15" value="ES8311初始化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Wp7DCiXrSTZsT9I5IMm-16" target="9Wp7DCiXrSTZsT9I5IMm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-16" value="&lt;div&gt;I2S初始化&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Wp7DCiXrSTZsT9I5IMm-17" target="9Wp7DCiXrSTZsT9I5IMm-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-17" value="&lt;div&gt;WIFI初始化&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Wp7DCiXrSTZsT9I5IMm-23" value="&lt;div&gt;创建音频采集任务&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
