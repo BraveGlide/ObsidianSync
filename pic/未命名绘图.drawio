@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0" version="27.2.0">
   <diagram name="第 1 页" id="R3yfPH0M-6cDf_54tVBJ">
-    <mxGraphModel dx="2998" dy="2100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="999" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -133,11 +133,17 @@
         <mxCell id="FQfiUk59fLdF9HCK3g-U-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FQfiUk59fLdF9HCK3g-U-15" target="FQfiUk59fLdF9HCK3g-U-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FQfiUk59fLdF9HCK3g-U-15" target="FQfiUk59fLdF9HCK3g-U-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FQfiUk59fLdF9HCK3g-U-15" value="等待按键松开" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FQfiUk59fLdF9HCK3g-U-17" value="发送ASR识别结束请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1210" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FQfiUk59fLdF9HCK3g-U-21" value="单次音频采集数据结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="900" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
